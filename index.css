@@ -1,0 +1,183 @@
+body{
+		background: #F2C9C1;
+		font-family: "微軟正黑體";
+}
+div.personal{
+				border: 7px double white;
+				background:#F9EBE8;
+}
+img.me{
+		height: 200px;
+		width: 160px;
+}
+h4.me{
+		font-weight: bolder;
+}
+h5.me{
+		line-height: 50px;
+}
+button {
+  			border-style:solid white;
+  			border-radius: 50px;
+			color:white;
+  			font-size: 18px;
+  			height: 50px;
+  			width: 120px;
+  			background-color:#F2C9C1;
+  			font-weight: bolder;
+  			letter-spacing: 3px;
+}
+button:hover {
+  				border:solid #F2C9C1;
+  				color:#F48D86;
+ 				background:white;
+ 				font-weight: bolder;
+ }
+button:focus{
+    			outline: 0;
+}
+div.content{
+				background:white;
+}
+div.course{
+				background:  #F2C9C1;
+}
+h5.course{
+			color: #424242;
+			font-weight: bolder;
+			text-align: left;
+}
+button.course{
+				border-style:solid white;
+				color: #424242;
+  				font-size: 18px;
+  				background-color:#F2C9C1;
+  				letter-spacing: 3px;
+}
+button.course:hover {
+ 						background:white;
+ 						font-weight: bolder;
+ }
+button.course:focus{
+    					outline: 0;
+}
+img.cake{
+			height: 180px;
+			width:270px;
+}
+div.text{
+			font-size: 20px;
+}
+img.experience{
+				height: 200px;
+				width: 300px;
+				overflow:hidden;
+}
+img.experience{transform:scale(1,1);transition: all 1s ease-out;}
+img.experience:hover{transform:scale(1.2,1.2);}
+
+#progress1{
+            width: 70%;
+            height: 25px;
+            border:1px solid #ccc;
+            border-radius: 15px;
+            margin: 0px 0 0 45px;
+            overflow: hidden;
+            box-shadow: 0 0 5px 0px #ddd inset;
+        }
+#progress1 span {
+		            display: inline-block;
+		            width: 65%;
+		            height: 100%;
+		            background-size: 60px 30px;
+		            text-align: center;
+		            color:#fff;
+		            -webkit-animation:load1 3s ease-in;
+        }
+        @-webkit-keyframes load1{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width:65%;
+            }
+}  
+#progress2{
+            width: 70%;
+            height: 25px;
+            border:1px solid #ccc;
+            border-radius: 15px;
+            margin: 0px 0 0 45px;
+            overflow: hidden;
+            box-shadow: 0 0 5px 0px #ddd inset;
+        }
+#progress2 span {
+                    display: inline-block;
+                    width: 55%;
+                    height: 100%;
+                    background-size: 60px 30px;
+                    text-align: center;
+                    color:#fff;
+                    -webkit-animation:load2 3s ease-in;
+        }
+        @-webkit-keyframes load2{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width:55%;
+            }
+}
+#progress3{
+            width: 70%;
+            height: 25px;
+            border:1px solid #ccc;
+            border-radius: 15px;
+            margin: 0px 0 0 45px;
+            overflow: hidden;
+            box-shadow: 0 0 5px 0px #ddd inset;
+        }
+#progress3 span {
+                    display: inline-block;
+                    width: 70%;
+                    height: 100%;
+                    background-size: 60px 30px;
+                    text-align: center;
+                    color:#fff;
+                    -webkit-animation:load3 3s ease-in;
+        }
+        @-webkit-keyframes load3{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width:70%;
+            }
+}
+#progress4{
+            width: 70%;
+            height: 25px;
+            border:1px solid #ccc;
+            border-radius: 15px;
+            margin: 0px 0 0 45px;
+            overflow: hidden;
+            box-shadow: 0 0 5px 0px #ddd inset;
+        }
+#progress4 span {
+                    display: inline-block;
+                    width: 60%;
+                    height: 100%;
+                    background-size: 60px 30px;
+                    text-align: center;
+                    color:#fff;
+                    -webkit-animation:load4 3s ease-in;
+        }
+        @-webkit-keyframes load4{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width:60%;
+            }
+}              
+
